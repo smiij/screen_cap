@@ -129,7 +129,7 @@ function App() {
           <p> </p>
         )}
         <h3> Current Query Status: </h3>
-        <p>
+        <p className='queryInfo'>
           https://api.apiflash.com/v1.urltoimage?access_key=ACCESS_KEY
           <br></br>
           &url={inputs.url} <br></br>
